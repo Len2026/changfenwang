@@ -42,7 +42,7 @@ const pages = resolvePageToggles({
 
 export const siteConfig: SiteConfig = {
     // 站点标题
-    title: "肠粉王的博客",
+    title: "户目怀南的博客",
 
     // 站点副标题
     subtitle: "大模型应用开发 · 学习记录",
@@ -52,11 +52,11 @@ export const siteConfig: SiteConfig = {
 
     // 站点描述
     description:
-        "肠粉王的个人博客，记录大模型应用开发、RAG 与 LangGraph 学习和项目实践。",
+        "户目怀南的个人博客，记录大模型应用开发、RAG 与 LangGraph 学习和项目实践。",
 
     // 站点关键词
     keywords: [
-        "肠粉王",
+        "户目怀南",
         "大模型应用开发",
         "RAG",
         "LangGraph",
@@ -118,7 +118,7 @@ export const siteConfig: SiteConfig = {
             alt: "🍀",
         },
         // 导航栏标题
-        title: "肠粉王的博客",
+        title: "户目怀南的博客",
         // 全宽导航栏，导航栏是否占满屏幕宽度
         widthFull: false,
         // 导航菜单对齐方式，left：左对齐，center：居中
