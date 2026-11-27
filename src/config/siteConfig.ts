@@ -42,13 +42,13 @@ const pages = resolvePageToggles({
 
 export const siteConfig: SiteConfig = {
     // 站点标题
-    title: "户目怀南的博客",
+    title: "户目怀南",
 
     // 站点副标题
     subtitle: "",
 
     // 站点 URL
-    site_url: "https://blog.liaoernuo.com",
+    site_url: "https://blog.liaoernuo.tech",
 
     // 站点描述
     description:
@@ -117,7 +117,7 @@ export const siteConfig: SiteConfig = {
             //🍀
         },
         // 导航栏标题
-        title: "户目怀南的博客",
+        title: "户目怀南",
         // 全宽导航栏，导航栏是否占满屏幕宽度
         widthFull: false,
         // 导航菜单对齐方式，left：左对齐，center：居中
