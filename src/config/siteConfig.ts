@@ -48,7 +48,7 @@ export const siteConfig: SiteConfig = {
     subtitle: "",
 
     // 站点 URL
-    site_url: "https://blog.liaoernuo.tech",
+    site_url: "https://blog.lernuo.tech",
 
     // 站点描述
     description:
