@@ -45,7 +45,7 @@ export const siteConfig: SiteConfig = {
     title: "户目怀南的博客",
 
     // 站点副标题
-    subtitle: "大模型应用开发 · 学习记录",
+    subtitle: "",
 
     // 站点 URL
     site_url: "https://blog.liaoernuo.com",
@@ -69,7 +69,7 @@ export const siteConfig: SiteConfig = {
     // 主题色
     themeColor: {
         // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
-        hue: 165,
+        hue: 345,
         // 默认模式："light" 亮色，"dark" 暗色，"system" 跟随系统
         defaultMode: "system",
     },
@@ -92,7 +92,7 @@ export const siteConfig: SiteConfig = {
     favicon: [
         {
             // 图标文件路径
-            src: "/favicon/firefly-32.png",
+            src: "/favicon/len-72.png",
             // 可选，指定主题 'light' | 'dark'
             // theme: "light",
             // 可选，图标大小
@@ -113,9 +113,10 @@ export const siteConfig: SiteConfig = {
         // 使用 Astro 图标库时不需要设置 valueDark，图标会自动跟随主题亮暗色切换
         logo: {
             type: "image",
-            value: "assets/images/logo/firefly-light.png",
-            valueDark: "assets/images/logo/firefly-dark.png",
-            alt: "🍀",
+            value: "assets/images/logo/len.avif",
+            valueDark: "assets/images/logo/len.avif",
+            alt: "assets/images/logo/len.avif",
+            //🍀
         },
         // 导航栏标题
         title: "户目怀南的博客",
@@ -129,7 +130,7 @@ export const siteConfig: SiteConfig = {
         // "static"：不固定，随页面滚动消失
         // "fixed"：固定在顶部常显
         // "dynamic"：固定在顶部，下滑隐藏、轻微上滑显示
-        navbarMode: "dynamic",
+        navbarMode: "static",
     },
 
     // 站点开始日期，用于统计运行天数
