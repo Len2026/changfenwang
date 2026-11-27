@@ -52,7 +52,7 @@ export const siteConfig: SiteConfig = {
 
     // 站点描述
     description:
-        "户目怀南的个人博客，记录大模型应用开发、RAG 与 LangGraph 学习和项目实践。",
+        "户目怀南的个人博客，分享技术与生活。",
 
     // 站点关键词
     keywords: [
@@ -60,8 +60,6 @@ export const siteConfig: SiteConfig = {
         "大模型应用开发",
         "RAG",
         "LangGraph",
-        "Astro",
-        "ACGN",
         "python",
         "个人博客",
     ],
