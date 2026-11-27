@@ -21,6 +21,9 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
     // 文章详情页隐藏侧边栏，设为 true 则只在首页等非文章页显示
     hideSidebarOnPostPage: false,
 
+    // 仅在关于页显示侧边栏，设为 true 则其他页面都隐藏（补丁新增配置，模板原版无此项）
+    onlyOnAboutPage: true,
+
     // 本页没有侧栏列时，内容栏占「侧栏 + 内容栏」总宽的比例（0–1），不设置或 ≥1 则铺满
     noSidebarContentWidth: 0.6,
 
