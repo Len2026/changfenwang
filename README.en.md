@@ -1,330 +1,230 @@
-
 <img src="./docs/images/1131.png" width = "350" height = "500" alt="Firefly" align=right />
-
 <div align="center">
 
-# Firefly
-> A Fresh and Beautiful Astro Static Blog Theme Template
-> 
+# 户目怀南的博客
+> 大模型应用开发 · 学习记录
+>
 > ![Node.js >= 22](https://img.shields.io/badge/node.js-%3E%3D22-brightgreen) 
-![pnpm >= 11](https://img.shields.io/badge/pnpm-%3E%3D9-blue)
-![Astro](https://img.shields.io/badge/Astro-7-orange)
-![TypeScript](https://img.shields.io/badge/TypeScript-6-blue)
+![pnpm >= 11](https://img.shields.io/badge/pnpm-%3E%3D11-blue)
+![Astro](https://img.shields.io/badge/Astro-7.3.2-orange)
+![TypeScript](https://img.shields.io/badge/TypeScript-6.0.3-blue)
 >
-> [![Stars](https://img.shields.io/github/stars/CuteLeaf/Firefly?style=social)](https://github.com/CuteLeaf/Firefly/stargazers)
-[![Forks](https://img.shields.io/github/forks/CuteLeaf/Firefly?style=social)](https://github.com/CuteLeaf/Firefly/network/members)
-[![Issues](https://img.shields.io/github/issues/CuteLeaf/Firefly)](https://github.com/CuteLeaf/Firefly/issues)
-> 
-> [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z41NQALY)
->
-> **QQ交流群：[1087127207](https://qm.qq.com/q/ZGsFa8qX2G)**
-> 
-> ![GitHub License](https://img.shields.io/github/license/CuteLeaf/Firefly)
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/CuteLeaf/Firefly)
-[![Afdian Sponsor](https://img.shields.io/badge/Afdian-Sponsor%20Author-ff69b4.svg)](https://ifdian.net/a/cuteleaf)
+> ![GitHub License](https://img.shields.io/github/license/Len2026/changfenwangblog)
+
 </div>
 
 
 ---
-📖 README:
-**[简体中文](README.md)** | **[繁體中文](docs/README.zh-TW.md)** | **[English](README.en.md)** | **[日本語](docs/README.ja.md)** | **[한국어](docs/README.ko.md)**
+📖 README：
+**[简体中文](README.md)**
 
-🚀 Quick Guide:
-[**🖥️Live Demo**](https://firefly.cuteleaf.cn/) /
-[**📝Documentation**](https://docs-firefly.cuteleaf.cn/) /
-[**🍀My Blog**](https://blog.cuteleaf.cn)
+🚀 快速指南：
+[**🖥️在线站点**](https://blog.lernuo.tech/) 
 
-⚡ Static Site Generation: Ultra-fast loading speed and SEO optimization based on Astro
+⚡ 静态站点生成: 基于Astro的超快加载速度和SEO优化
 
-🎨 Modern Design: Clean and beautiful interface with customizable theme colors
+🎨 现代化设计: 简洁美观的界面，支持自定义主题色
 
-📱 Mobile-Friendly: Perfect responsive experience with mobile-specific optimizations
+📱 移动友好: 完美的响应式体验，移动端专项优化
 
-🔧 Highly Configurable: Most features can be customized through configuration files
+🔧 高度可配置: 大部分功能模块均可通过配置文件自定义
 
-<table width="100%" align="center">
-  <tr>
-    <td colspan="3" align="center">
-      <img src="./docs/images/1.webp" >
-      <br>Banner Mode</td>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><img src="./docs/images/3.webp" width="300"><br>Overlay Mode</td>
-    <td align="center"><img src="./docs/images/2.webp" width="300"><br>Fullscreen Wallpaper Mode</td>
-    <td align="center"><img src="./docs/images/4.webp" width="300"><br>Solid Color Mode</td>
-  </tr>
-</table>
-<img alt="Lighthouse" src="./docs/images/Lighthouse.png" />
+<img alt="firefly1" src="./docs/images/first.webp" />
+<img alt="firefly2" src="./docs/images/second.webp" />
 
 >[!TIP]
 >
->Firefly is a fresh, beautiful, and modern personal blog theme template based on the Astro framework and the Fuwari template, designed for tech enthusiasts and content creators. It integrates a modern web tech stack, offering rich feature modules and a highly customizable interface so you can easily build a professional and visually appealing personal blog.
->
->**If you refer to or use Firefly component design and related code, please credit Firefly.**
->
->Firefly also preserves the original fuwari layout, which can be freely switched in the configuration file according to your preferences.
->
->**For more layout configurations and demos, please see: [Firefly Layout System Details](https://firefly.cuteleaf.cn/posts/guide/firefly-layout-system/)**
->
->Firefly supports i18n multilingual UI, but except for Simplified Chinese, other languages are AI-translated. If you find any errors, feel free to submit a [Pull Request](https://github.com/CuteLeaf/Firefly/pulls) to help improve them.
+>这是一个基于 Firefly 主题模板的个人博客网站，构建于 Astro 框架之上。它具有现代设计、丰富的功能和出色的性能，是分享思想、知识和生活经验的理想平台。
 
-## ✨ Features
+## ✨ 功能特性
 
-### Core Features
+### 核心功能
 
-- [x] **Astro + Tailwind CSS** - Ultra-fast static site generation based on modern tech stack
-- [x] **Smooth Animations** - Swup page transition animations for silky smooth browsing experience
-- [x] **Responsive Design** - Perfect adaptation for desktop, tablet and mobile devices
-- [x] **Multi-language Support** - i18n internationalization ui, supports Simplified Chinese, Traditional Chinese, English, Japanese, Russian, Korean
-- [x] **Full-text Search** - Client-side search based on Pagefind, supports article content indexing.
+- [x] **Astro + Tailwind CSS** - 基于现代技术栈的超快静态站点生成
+- [x] **流畅动画** - Swup 页面过渡动画，提供丝滑的浏览体验
+- [x] **响应式设计** - 完美适配桌面端、平板和移动设备
+- [x] **全文搜索** - 基于 Pagefind 的客户端搜索，支持文章内容索引
 
-### Personalization
-- [x] **Dynamic Sidebar** - Supports single sidebar, dual sidebar configuration
-- [x] **Article Layout** - Supports list (single column) and grid (multi-column/masonry) layout
-- [x] **Font Management** - Custom font support with rich font selector
-- [x] **Footer Configuration** - HTML content injection, fully customizable
-- [x] **Light/Dark Mode** - Supports light/dark/system three modes
-- [x] **Navbar Customization** - Logo, title, links fully customizable
-- [x] **Wallpaper Mode Switching** - Banner wallpaper, fullscreen wallpaper, fullscreen transparent wallpaper, solid background
-- [x] **Theme Color Customization** - 360° hue adjustment
+### 个性化
+- [x] **文章布局** - 支持配置(单列)列表、网格(多列/瀑布流)布局
+- [x] **字体管理** - 支持自定义字体，丰富的字体选择器
+- [x] **页脚配置** - HTML 内容注入，完全自定义
+- [x] **亮暗色模式** - 支持亮色/暗色/跟随系统三种模式
+- [x] **导航栏自定义** - Logo、标题、链接全面自定义
+- [x] **壁纸模式切换** - 横幅壁纸、全屏透明壁纸、纯色背景
+- [x] **主题色自定义** - 360° 色相调节
+- [x] **侧边栏按页显示** - 本站定制：侧边栏仅在「关于」页面显示
 
+### 页面组件
+   
+- [x] **留言板** - 支持留言页面
+- [x] **友情链接** - 精美的友情链接展示页面
+- [x] **评论系统** - 集成 Waline 评论系统（服务端自建，见下文）
+- [x] **访问量统计** - 支持调用 Waline 自带的访问量追踪
 
-If you have useful features and optimizations, please submit a [Pull Request](https://github.com/CuteLeaf/Firefly/pulls)
+### 内容增强
+- [x] **图片灯箱** - Fancybox 图片预览功能
+- [x] **浮动目录** - 动态显示文章目录，支持锚点跳转，在侧边栏目录隐藏后显示
+- [x] **侧边栏目录** - 动态显示文章目录，支持锚点跳转
+- [x] **增强代码块** - 基于 Expressive Code，支持代码折叠、行号、语言标识
+- [x] **数学公式支持** - KaTeX 渲染引擎，支持行内和块级公式
+- [x] **Markdown扩展** - 更多的 Markdown 扩展语法
 
-## 🚀 Quick Start
+### SEO
+- [x] **SEO 优化** - 完整的 meta 标签和结构化数据
+- [x] **RSS 订阅** - 自动生成 RSS Feed
+- [x] **站点地图** - 自动生成 XML Sitemap，支持页面过滤配置
 
-### Requirements
+## 🚀 快速开始
+
+### 环境要求
 
 - Node.js ≥ 22
 - pnpm ≥ 11
 
-### Local Development
+### 本地开发部署
 
-1. **Clone the repository:**
+1. **克隆仓库：**
    ```bash
-   git clone https://github.com/Cuteleaf/Firefly.git
-   cd Firefly
+   git clone https://github.com/Len2026/changfenwangblog.git
+   cd changfenwangblog
    ```
-   
-   **First [Fork](https://github.com/CuteLeaf/Firefly/fork) to your own repository then clone (recommended). Don't forget to Star before Fork!**
 
+2. **安装依赖：**
    ```bash
-   git clone https://github.com/you-github-name/Firefly.git
-   cd Firefly
-   ```
-3. **Install dependencies:**
-   ```bash
-   # Install pnpm if not installed
+   # 如果没有安装 pnpm，先安装
    npm install -g pnpm
    
-   # Install project dependencies
+   # 安装项目依赖
    pnpm install
    ```
 
-4. **Configure blog:**
-   - Edit configuration files in `src/config/` directory to customize blog settings
+3. **配置博客：**
+   - 编辑 `src/config/` 目录下的配置文件自定义博客设置
 
-5. **Start development server:**
+4. **启动开发服务器：**
    ```bash
    pnpm dev
    ```
-   Blog will be available at `http://localhost:4321`
+   博客将在 `http://localhost:4321` 可用
 
-### Platform Hosting Deployment
-- **Refer to the [official guide](https://docs.astro.build/en/guides/deploy/) to deploy your blog to Vercel, Netlify, Cloudflare Pages, EdgeOne Pages, etc.**
-- **Vercel**, **Netlify** and other major platforms auto-deploy, automatically selecting the appropriate adapter based on the environment.
+### 平台托管部署
+本站部署于 **Cloudflare Pages**，与 GitHub 仓库关联，推送 `master` 分支后自动构建上线。
 
-   Framework Preset: `Astro`
+   框架预设： `Astro`
 
-   Root Directory: `./`
+   根目录： `./`
 
-   Output Directory: `dist`
+   输出目录： `dist`
 
-   Build Command: `pnpm run build`
+   构建命令： `pnpm run build`
 
-   Install Command: `pnpm install`
+   安装命令： `pnpm install`
 
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/CuteLeaf/Firefly&project-name=Firefly&repository-name=Firefly)
-   [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/CuteLeaf/Firefly)
+   环境变量： `NODE_VERSION=22`
 
-## 📖 Configuration
+评论系统（Waline）独立部署：服务端运行于 Render（官方 Docker 镜像），数据库为 Neon PostgreSQL，通过 `src/config/commentConfig.ts` 中的 `serverURL` 与本站对接。
 
-> 📚 **Detailed Configuration Documentation**: Check [Firefly Documentation](https://docs-firefly.cuteleaf.cn/) for complete configuration guide
+## 📖 配置说明
 
-### Setting Website Language
+### 设置网站语言
 
-To set the default language for your blog, edit the `src/config/siteConfig.ts` file:
+要设置博客的默认语言，请编辑 `src/config/siteConfig.ts` 文件：
 
 ```typescript
-// Define site language
+// 定义站点语言
 const SITE_LANG = "zh_CN";
 ```
 
-**Supported language codes:**
-- `zh_CN` - Simplified Chinese
-- `zh_TW` - Traditional Chinese
-- `en` - English
-- `ja` - Japanese
-- `ru` - Russian
-- `ko` - Korean
+**支持的语言代码：**
+- `zh_CN` - 简体中文
+- `en` - 英文
 
-### Configuration File Structure
+### 配置文件结构
 
 ```
 src/
 ├── config/
-│   ├── index.ts                  # Configuration index file
-│   ├── siteConfig.ts             # Site basic configuration
-│   ├── analyticsConfig.ts        # Analytics configuration
-│   ├── announcementConfig.ts     # Announcement configuration
-│   ├── backgroundWallpaper.ts    # Background wallpaper configuration
-│   ├── commentConfig.ts          # Comment system configuration
-│   ├── coverImageConfig.ts       # Cover image configuration
-│   ├── displaySettingsConfig.ts  # Settings panel configuration
-│   ├── dynamicConfig.ts          # Moments page configuration
-│   ├── effectsConfig.ts          # Animation effects config (sakura, etc.)
-│   ├── expressiveCodeConfig.ts   # Code highlighting configuration
-│   ├── fontConfig.ts             # Font configuration
-│   ├── FooterConfig.html           # Footer configuration
-│   ├── friendsConfig.ts          # Friend links configuration
-│   ├── galleryConfig.ts          # Gallery configuration
-│   ├── licenseConfig.ts          # License configuration
-│   ├── musicConfig.ts            # Music player configuration
-│   ├── navBarConfig.ts           # Navbar configuration
-│   ├── pioConfig.ts              # Mascot configuration
-│   ├── mermaidConfig.ts          # Mermaid diagram configuration
-│   ├── plantumlConfig.ts         # PlantUML diagram configuration
-│   ├── profileConfig.ts          # User profile configuration
-│   ├── sidebarConfig.ts          # Sidebar layout configuration
-│   └── sponsorConfig.ts          # Sponsor configuration
+│   ├── index.ts              # 配置索引文件
+│   ├── siteConfig.ts         # 站点基础配置
+│   ├── backgroundWallpaper.ts # 背景壁纸配置
+│   ├── profileConfig.ts      # 用户资料配置
+│   ├── commentConfig.ts      # 评论系统配置
+│   ├── announcementConfig.ts # 公告配置
+│   ├── licenseConfig.ts      # 许可证配置
+│   ├── FooterConfig.html     # 页脚自定义内容
+│   ├── expressiveCodeConfig.ts # 代码高亮配置
+│   ├── sakuraConfig.ts       # 樱花特效配置
+│   ├── fontConfig.ts         # 字体配置
+│   ├── sidebarConfig.ts      # 侧边栏布局配置
+│   ├── navBarConfig.ts       # 导航栏配置
+│   ├── musicConfig.ts        # 音乐播放器配置
+│   ├── pioConfig.ts          # 看板娘配置
+│   ├── friendsConfig.ts      # 友链配置
+│   ├── sponsorConfig.ts      # 赞助配置
+│   └── coverImageConfig.ts   # 文章封面图配置
 ```
 
-
-## ⚙️ Article Frontmatter
+## ⚙️ 文章 Frontmatter
 
 ```yaml
 ---
 title: My First Blog Post
 published: 2023-09-09
 description: This is the first post of my new Astro blog.
-image: ./cover.jpg  # Or use "api" to enable random cover images
+image: ./cover.jpg  # 或使用 "api" 来启用随机封面图
 tags: [Foo, Bar]
 category: Front-end
 draft: false
-lang: zh-CN      # Only set when article language differs from site language in `siteConfig.ts`
-pinned: false    # Pin article
-comment: true    # Enable comments
+lang: zh-CN      # 仅当文章语言与 `siteConfig.ts` 中的网站语言不同时需要设置
+pinned: false    # 置顶
+comment: true    # 是否允许评论
 ---
 ```
 
-## Moments
+## 🧩 Markdown 扩展语法
 
-Moment files are stored in `src/content/dynamic/`, with one Markdown file per moment. Create one with:
+除了 Astro 默认支持的 [GitHub Flavored Markdown](https://github.github.com/gfm/) 之外，还包含了一些额外的 Markdown 功能：
 
-```bash
-pnpm new-d The weather is lovely today
-```
+- 提醒块（Admonitions） - 支持 GitHub, Obsidian, VitePress 三种风格主题配置
+- GitHub 仓库卡片
+- 基于 Expressive Code 的增强代码块
 
-`pnpm new-dynamic <content>` is the equivalent full command.
+## 🧞 指令
 
-```yaml
----
-published: 2026-07-15 16:15:29
-pinned: true  # Pin article
-location: China # Location
----
-
-Moment content supports Markdown.
-```
-
-Also supports [Memos](https://www.usememos.com/) as a data source. Configure the `memos` option in `src/config/dynamicConfig.ts` to fetch Memos moments in real-time, with pinned sync and image attachment support. See [Moments documentation](https://docs-firefly.cuteleaf.cn/en/guide/dynamic.html).
-
-## 📖 Markdown Extensions
-
-In addition to the default [GitHub Flavored Markdown](https://github.github.com/gfm/) support in Astro, there are some additional Markdown features:
-
-- Admonitions - Supports configuration for GitHub, Obsidian, VitePress, and Docusaurus themes ([Preview and Usage](https://firefly.cuteleaf.cn/posts/markdown-extended/))
-- GitHub Repository Cards ([Preview and Usage](https://firefly.cuteleaf.cn/posts/markdown-extended/))
-- Enhanced Code Blocks based on Expressive Code ([Preview](http://firefly.cuteleaf.cn/posts/code-examples/) / [Documentation](https://expressive-code.com/))
-
-## 🧞 Commands
-
-All commands need to be executed in the project root directory:
+下列指令均需要在项目根目录执行：
 
 | Command                    | Action                                              |
 |:---------------------------|:----------------------------------------------------|
-| `pnpm install`             | Install dependencies                                |
-| `pnpm dev`                 | Start local development server at `localhost:4321`  |
-| `pnpm build`               | Build site to `./dist/`                             |
-| `pnpm preview`             | Preview built site locally                          |
-| `pnpm check`               | Check for errors in code                            |
-| `pnpm format`              | Format your code using Biome                        |
-| `pnpm new-post <filename>` | Create new article                                  |
-| `pnpm new-d <content>`     | Create a new moment                                 |
-| `pnpm new-dynamic <content>` | Create a new moment (full command)                |
-| `pnpm astro ...`           | Execute `astro add`, `astro check` and other commands |
-| `pnpm astro --help`        | Display Astro CLI help                              |
+| `pnpm install`             | 安装依赖                               |
+| `pnpm dev`                 | 在 `localhost:4321` 启动本地开发服务器        |
+| `pnpm build`               | 构建网站至 `./dist/`            |
+| `pnpm preview`             | 本地预览已构建的网站        |
+| `pnpm check`               | 检查代码中的错误                 |
+| `pnpm format`              | 使用Biome格式化您的代码                        |
+| `pnpm new-post <filename>` | 创建新文章                                   |
+| `pnpm astro ...`           | 执行 `astro add`, `astro check` 等指令    |
+| `pnpm astro --help`        | 显示 Astro CLI 帮助                        |
 
-## 🙏 Acknowledgments
+## 🙏 致谢
 
-Special thanks to [saicaca](https://github.com/saicaca) for developing the [fuwari](https://github.com/saicaca/fuwari) template, which Firefly is based on for secondary development.
+本博客基于 [Firefly](https://github.com/CuteLeaf/Firefly) 主题模板，该模板构建于 [Astro](https://astro.build) 框架和 [Tailwind CSS](https://tailwindcss.com) 之上。
 
-The copyright of Firefly-related image assets belongs to [miHoYo](https://www.mihoyo.com/), the developer of the game ["Honkai: Star Rail"](https://sr.mihoyo.com/).
-
-### Tech Stack
+### 技术栈
 
 - [Astro](https://astro.build) 
 - [Tailwind CSS](https://tailwindcss.com) 
 - [Iconify](https://iconify.design)
 
-### Inspiration Projects
+## 📝 许可协议
 
-- [fuwari](https://github.com/saicaca/fuwari)
-- [hexo-theme-shoka](https://github.com/amehime/hexo-theme-shoka)
-- [astro-koharu](https://github.com/cosZone/astro-koharu)
-- [Mizuki](https://github.com/matsuzaka-yuki/Mizuki)
+本项目遵循 [MIT license](https://mit-license.org/) 开源协议，详细查看 [LICENSE](./LICENSE) 文件
 
-### Other References
-- Blogger `霞葉` [Bangumi Collection](https://kasuha.com/posts/fuwari-enhance-ep2/) page component
-- Bilibili creator `公公的日常` Q-version [Firefly Mascot Spine Model](https://www.bilibili.com/video/BV1fuVzzdE5y)
+最初基于 [CuteLeaf/Firefly](https://github.com/CuteLeaf/Firefly)，该项目是从 [saicaca/fuwari](https://github.com/saicaca/fuwari) fork 而来。感谢所有原始贡献者的宝贵工作。
 
-## 📝 License
-
-This project is licensed under the [MIT license](https://mit-license.org/). See the [LICENSE](./LICENSE) file for details.
-
-Originally forked from [saicaca/fuwari](https://github.com/saicaca/fuwari). Thanks to the original author for their contributions. 
-
-**Copyright Notice:**
+**版权声明：**
 - Copyright (c) 2024 [saicaca](https://github.com/saicaca) - [fuwari](https://github.com/saicaca/fuwari)
 - Copyright (c) 2025 [CuteLeaf](https://github.com/CuteLeaf) - [Firefly](https://github.com/CuteLeaf/Firefly)
+- Copyright (c) 2026 [户目怀南](https://blog.lernuo.tech) - 个人博客
 
-Under the MIT license, you are free to use, modify, and distribute the code, but you must retain the above copyright notice.
-
-## 🍀 Contributors
-
-Thanks to the following contributors for their contributions to this project. If you have any questions or suggestions, please submit an [Issue](https://github.com/CuteLeaf/Firefly/issues) or [Pull Request](https://github.com/CuteLeaf/Firefly/pulls).
-
-><a href="https://github.com/CuteLeaf/Firefly/graphs/contributors">
->  <img src="https://contrib.rocks/image?repo=CuteLeaf/Firefly" />
-></a>
-
-Thanks to the following contributors for their contributions to the original project [fuwari](https://github.com/saicaca/fuwari), which laid the foundation for this project.
-
-><a href="https://github.com/saicaca/fuwari/graphs/contributors">
->  <img src="https://contrib.rocks/image?repo=saicaca/fuwari" />
-></a>
-
-## ⭐ Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=CuteLeaf/Firefly&type=Date)](https://star-history.com/#CuteLeaf/Firefly&Date)
-
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+根据 MIT 开源协议，你可以自由使用、修改、分发代码，但需保留上述版权声明。
